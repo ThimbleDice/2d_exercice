@@ -14,8 +14,8 @@ TagManager:
   - 
   - 
   - Player
-  - 
-  - 
+  - NPC
+  - Interaction
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: Wall
     uniqueID: 1562591205
+    locked: 0
+  - name: NPC
+    uniqueID: 4022285931
     locked: 0

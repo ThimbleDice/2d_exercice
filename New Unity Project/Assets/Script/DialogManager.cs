@@ -6,7 +6,7 @@ public class DialogManager : MonoBehaviour {
     [SerializeField] public GameObject dialogPrefab;
     [SerializeField] public GameObject mainCanvas;
 
-    private bool acrionAxisInUse = true;
+    private bool actionAxisInUse = true;
     private GameObject player;
     private bool dialogIsInitiated = false;
     private DialogText currentDialog;
@@ -36,7 +36,7 @@ public class DialogManager : MonoBehaviour {
     {
         if (ShouldProcessInput())
         {
-            acrionAxisInUse = true;
+            actionAxisInUse = true;
             if (currentDialog.IsNextDialog())
             {
                 currentDialog = currentDialog.GetNextDialog();
